@@ -1,0 +1,134 @@
+#check{
+  text-align: center;
+  justify-content: center;
+}
+.container {  
+    padding: 50px;  
+    padding-top: 175px;
+}
+@media screen and (max-width: 975px){
+  .container {  
+      padding: 50px;  
+    padding-top: 390px;
+    
+  }  
+}
+
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+  border-radius: 30px;
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color:cyan; 
+  outline: none;  
+} 
+ div {  
+            padding: 10px 0;  
+            
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;
+}  
+  
+.registerbtn {  
+  background-color:rgb(67, 67, 213) ; 
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9; 
+  border-radius: 30px; 
+}
+.selectWrapper{
+    border-radius:36px;
+    display:inline-block;
+    overflow:hidden;
+
+    border:1px solid #cccccc;
+  }
+  .selectBox{
+    width:140px;
+    height:40px;
+    /* border:0px; */
+    outline:none;
+  }
+  #myFile{
+    border-radius: 40px;
+    width: 100%;
+  }
+  #dob{
+    border-radius: 40px;
+    width: 100%;
+    outline: none;
+    padding:13px;
+    border: white;
+
+  }
+  
+  select{
+    border:none;
+    padding: 10px 20px;
+    border-radius:30px;
+    width: 100%;
+  
+    padding: 14px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;
+
+  }
+  #myfile{
+    border-radius: 10px;
+  }
+  select:focus{
+    outline:none;
+  }
+  .add{
+    border-radius: 50px;
+  }
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+.logo{
+  margin-left: 31.5%;
+  margin-top: -110px;
+
+}
+
+.code{
+            
+  border-radius: 30px;
+
+}
+.name{
+  border-radius: 30px;
+  padding: 15px;  
+  margin: 5px 0 22px 0; 
+  width: 100%; 
+}
+/* captcha */
+.captcha-container {
+  position: relative;
+}
+
+.refresh-btn {
+  background-color: rgb(229, 227, 227);
+  border: none;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  width: 80px;
+  border-radius: 30px;
+}
+#mainCaptcha{
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: rgb(4, 4, 184);
+}

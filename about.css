@@ -1,0 +1,29 @@
+.cardcontainer{
+    display: flex;
+    justify-content: space-around;
+    top: 150px;
+}
+.card{
+    top: 150px;
+}
+@media screen and (max-width: 991px) {
+    .cardcontainer{
+        display: grid;
+        grid-gap: 9px;
+    }
+    .card{
+        top: 378px;
+    }
+}
+.developer{
+    text-align: center;
+    color: rgb(229 229 229);
+    z-index: 10;
+    margin-top: 150px;
+    margin-bottom: -7.5rem;
+    font-size: 30px;
+}
+.developer.p{
+    font-size: 30px;
+    color: black;
+}
